@@ -32,3 +32,16 @@ https://cursos.alura.com.br/course/node-js-api-rest-express-mongodb
             http://localhost:3000/livros
             http://localhost:3000/autores
 
+## Aula-2
+
+	1.	Instalar Framework Express no projeto:
+
+		npm install express@4.18.1
+
+	2.	Framework Express:
+
+		Os métodos do Framework Express são utilizados para criação de um servidor HTTP e também para gerenciamento de requisições, respostas e criação de rotas
+
+	3.	Implementar um CRUD com os métodos HTTP GET, POST, PUT e DELETE
+
+	4.	Testar a aplicação utilizando Postman
