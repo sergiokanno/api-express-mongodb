@@ -33,6 +33,7 @@ https://cursos.alura.com.br/course/node-js-api-rest-express-mongodb
             http://localhost:3000/
             http://localhost:3000/livros
             http://localhost:3000/autores
+            http://localhost:3000/busca?editora=
 
 
 ## Aula-2 - Express e primeiras rotas
@@ -72,8 +73,18 @@ https://cursos.alura.com.br/course/node-js-api-rest-express-mongodb
 
 	    Obs.: biblioteca Dotenv é utilizada para gerenciar as variáveis de ambiente
 
+
 ## Aula-4 - Evoluindo a API
 
-	1.	Implementando controller para livro
+	1.	Implementando controller e rotas para livro
 
 	2.	implementação do CRUD (Create, Read, Update e Delete) com as respostas HTTP e as rotas correspondentes
+
+
+## Aula-5 - Adicionando funcionalidades
+
+    1.  Implementando controller e rotas para autor
+
+    2.  Usar modelo de embedding para unir as entidades livro e autor na base de dados MongoDB
+
+    3.  Implementar busca utilizando parâmetros de query na nossa API
