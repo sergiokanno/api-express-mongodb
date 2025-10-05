@@ -45,7 +45,7 @@ https://cursos.alura.com.br/course/node-js-api-rest-express-mongodb
 
 	    Os métodos do Framework Express são utilizados para criação de um servidor HTTP e também para gerenciamento de requisições, respostas e criação de rotas
 
-	3.  Implementar um CRUD com os métodos HTTP GET, POST, PUT e DELETE
+    3.  Implementar um CRUD com os métodos HTTP GET, POST, PUT e DELETE
 
 	4.  Testar a aplicação utilizando Postman
 
@@ -60,15 +60,20 @@ https://cursos.alura.com.br/course/node-js-api-rest-express-mongodb
 
 	    Obs.: Este Driver é a biblioteca que permite que API com Node.js se conectem e interajam com bancos de dados MongoDB
 
-    3.	Instalar o Mongoose
+    3.  Instalar o Mongoose
 
 	    npm install mongoose@7.3.4
 
 	    Obs.: Mongoose é uma ferramenta de modelagem de objetos do MongoDB
 
-    4.	Instalar Dotenv
+    4.  Instalar Dotenv
 
-	    npm install dotenv
+        npm install dotenv
 
 	    Obs.: biblioteca Dotenv é utilizada para gerenciar as variáveis de ambiente
 
+## Aula-4 - Evoluindo a API
+
+	1.	Implementando controller para livro
+
+	2.	implementação do CRUD (Create, Read, Update e Delete) com as respostas HTTP e as rotas correspondentes
