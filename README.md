@@ -6,7 +6,9 @@ https://github.com/alura-cursos/3266-express-mongo.git
 ## Link do curso na ALURA:
 https://cursos.alura.com.br/course/node-js-api-rest-express-mongodb
 
-## Aula-1
+
+## Aula-1 - Criando o projeto com Node.js
+ 
     1.  Preparando o ambiente:
 
         - Instalando Node.js versão 18.16.0
@@ -32,16 +34,41 @@ https://cursos.alura.com.br/course/node-js-api-rest-express-mongodb
             http://localhost:3000/livros
             http://localhost:3000/autores
 
-## Aula-2
 
-	1.	Instalar Framework Express no projeto:
+## Aula-2 - Express e primeiras rotas
 
-		npm install express@4.18.1
+    1.  Instalar Framework Express no projeto:
 
-	2.	Framework Express:
+	    npm install express@4.18.1
 
-		Os métodos do Framework Express são utilizados para criação de um servidor HTTP e também para gerenciamento de requisições, respostas e criação de rotas
+    2.  Framework Express:
 
-	3.	Implementar um CRUD com os métodos HTTP GET, POST, PUT e DELETE
+	    Os métodos do Framework Express são utilizados para criação de um servidor HTTP e também para gerenciamento de requisições, respostas e criação de rotas
 
-	4.	Testar a aplicação utilizando Postman
+	3.  Implementar um CRUD com os métodos HTTP GET, POST, PUT e DELETE
+
+	4.  Testar a aplicação utilizando Postman
+
+
+## Aula-3 - Persistindo dados
+
+    1.  Persistir dados em banco MongoDB hospedado na nuvem
+
+    2.  Instalar o Driver do MongoDB
+
+	    npm install mongodb
+
+	    Obs.: Este Driver é a biblioteca que permite que API com Node.js se conectem e interajam com bancos de dados MongoDB
+
+    3.	Instalar o Mongoose
+
+	    npm install mongoose@7.3.4
+
+	    Obs.: Mongoose é uma ferramenta de modelagem de objetos do MongoDB
+
+    4.	Instalar Dotenv
+
+	    npm install dotenv
+
+	    Obs.: biblioteca Dotenv é utilizada para gerenciar as variáveis de ambiente
+
